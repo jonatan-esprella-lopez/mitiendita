@@ -1,0 +1,81 @@
+.content-login{
+  width: 98%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+}
+
+.login-formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5em;
+  background-color: transparent;
+  padding: 2em 1.1em;
+  border: solid 0.2em rgba(80, 98, 111, 0.5);
+  border-radius: 3em;
+  box-shadow: 0px 0px 10px rgba(0,0,0, 0.2);
+}
+
+.img-login{
+  display: flex;
+  margin-top: -6.4em;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-login img{
+  width: 8em;
+}
+
+.img-login span{
+  color: #4D95D1;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.login-form--submit{
+  background-color: #4D95D1;
+  width: 100%;
+  border: none;
+  padding: 0.5em;
+  color: white;
+  border-radius: 0.3em;
+  font-weight: 800;
+  margin-bottom: 2em;
+  cursor: pointer;
+}
+
+
+.login-form--inputs{
+  display: flex;
+  width: 94%;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.login-form--inputs--item{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 0.2em;
+  padding: 0.2em 0;
+}
+
+.login-form--inputs--item input{
+  width: 100%;
+  padding: 0.5em;
+  border: none; 
+  border-radius: 0.2em;
+}
+
+.login-form--inputs--item input:focus{outline: none;}
+
+.login-form--inputs--item i {
+  display: inline-block;
+  color: #50626F;
+  padding: 0 0.8em;
+  border-right: solid 0.15em #50626F;
+}
